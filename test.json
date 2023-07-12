@@ -1,4 +1,7 @@
 {
     "foo": "bar"
-    "baz": ["qux", "quux", "corge", "grault", "garply", "waldo", "fred", "plugh", "xyzzy", "thud"]
+    "baz": ["qux", "quux", "corge", "grault", "garply", "waldo", "fred", "plugh", "xyzzy", "thud"],
+    "nested": {
+        "foo": "bar"
+    }
 }
