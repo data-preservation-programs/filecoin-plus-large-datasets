@@ -1,0 +1,94 @@
+{
+  "applicationVersion": 1,
+  "dataCapApplicationType": "da | ldn-v3 | e-fil",
+  "projectId": 1,
+  "datacapApplicant": "",
+  "applicationInfo": {
+    "coreInformation": {
+      "Data Owner Name": "Corp Team",
+      "Data Owner Country/Region": "Canada",
+      "Data Owner Industry": "IT & Technology Services",
+      "Website": "https://foo.com",
+      "Social Media": {
+        "handle": "@foo",
+        "type": "Threads"
+      },
+      "What is your role related to the dataset": "Data Preparer",
+      "Total amount of DataCap being requested": {
+        "amount": 500,
+        "unit": "TiB"
+      },
+      "Expected size of single dataset (one copy)": {
+        "amount": 100,
+        "unit": "TiB"
+      },
+      "Number of replicas to store": "5",
+      "Weekly allocation of DataCap requested": {
+        "amount": 30,
+        "unit": "TiB"
+      },
+      "On-chain address for first allocation": "f2is93dmx0s3p5ffj2l",
+      "Data Type of Application": "Private Commercial/Enterprise",
+      "Custom multisig": "No"
+    },
+    "projectDetails": {
+      "Share a brief history of your project and organization": "Pirate scuttle Yellow Jack Gold Road bilged on her anchor splice the main brace heave down marooned quarterdeck Barbary Coast. Dance the hempen jig Jolly Roger measured fer yer chains chase guns cog come about grog blossom sutler capstan matey. Parley lugsail snow bilge rat gangplank doubloon lateen sail booty hail-shot hang the jib.",
+      "Is this project associated with other projects/ecosystem stakeholders?": "No",
+      "If answered yes, what are the other projects/ecosystem stakeholders": ""
+    },
+    "useCaseDetails": {
+      "Describe the data being stored onto Filecoin": "Cable list clipper quarterdeck",
+      "Where was the data currently stored in this dataset sourced from": "My own storage infra",
+      "If you answered 'Other' in the previous question, enter the details here": "",
+      "How do you plan to prepare the dataset": "lotus",
+      "If you answered 'other/custom tool' in the previous question, enter the details here": "",
+      "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "- one\n- two\n- three",
+      "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "No",
+      "If you chose not to confirm, what was the reason": "Don't want to",
+      "What is the expected retrieval frequency for this data": "Monthly",
+      "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years"
+    },
+    "datacapAllocationPlan": {
+      "In which geographies do you plan on making storage deals": "North America, South America",
+      "How will you be distributing your data to storage providers": "IPFS",
+      "How do you plan to choose storage providers": "Slack",
+      "If you answered 'Other' in the previous question, what is the tool or platform you plan to use": "",
+      "If you already have a list of storage providers to work with, fill out their names and provider IDs below": "",
+      "How do you plan to make deals to your storage providers": "Lotus client",
+      "If you answered 'Others/custom tool' in the previous question, enter the details here": "",
+      "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+    }
+  },
+  "applicationLifecycle": {
+    "validatedTime": 0,
+    "firstAllocationTime": 0,
+    "isActive": true,
+    "timeOfNewState": 0
+  },
+  "dataCapAllocations": [
+    {
+      "dataCapTranche": {
+        "uuid": 0,
+        "clientAddress": "f1...",
+        "timeOfRequest": 0,
+        "timeOfAllocation": 0,
+        "notaryAddress": "",
+        "allocationAmount": 0,
+        "signers": [
+          {
+            "signingAddress": "",
+            "timeOfSignature": 0,
+            "messageCID": ""
+          },
+          {
+            "signingAddress": "",
+            "timeOfSignature": 0,
+            "messageCID": ""
+          }
+        ],
+        "pr": 0,
+        "pr-cid": "bafy..."
+      }
+    }
+  ]
+}
